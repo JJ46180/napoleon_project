@@ -1,101 +1,96 @@
-.wrap{
-    width: 100%;
+.wrap {
+  width: 100%;
 }
 
-.container{
-    width: 1400px;
-    margin: 0 auto;
+.container {
+  width: 1400px;
+  margin: 0 auto;
 }
 
-header,section,footer{
-    width: 100%;
-    position: relative;
+header,
+section,
+footer {
+  width: 100%;
+  position: relative;
 }
 
-header{
-    background-color: #fff;
+header {
+  background-color: #fff;
 }
 
-.title h2{
-    font-size: 50px;
-    font-weight: 700;
-    color: #352349;
-    margin-bottom: 30px;
+.title h2 {
+  font-size: 3em;
+  font-weight: 700;
+  color: #352349;
+  margin-bottom: 30px;
 }
 
-.title p{
-    font-size: 18px;
-    font-weight: 400;
-    color: #A1A1A1;
-    letter-spacing: 0;
+.title p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #a1a1a1;
+  letter-spacing: 0;
 }
 
-@media all and ( max-width:1400px ){
+@media all and (max-width: 1400px) {
+  .title > h2 {
+    font-size: 40px;
+  }
 
-    .title>h2{
-        font-size: 40px;
-    }
-
-    .container{
-        width: 90%;
-    }
-    
+  .container {
+    width: 90%;
+  }
 }
 
-@media all and ( max-width:960px ){
-
-    .title>p{
-        font-size: 16px;
-    }
+@media all and (max-width: 960px) {
+  .title > p {
+    font-size: 16px;
+  }
 }
 
-@media all and ( max-width:760px ){
+@media all and (max-width: 760px) {
+  .title {
+    text-align: center;
+    margin-bottom: 8%;
+  }
 
-    .title{
-        text-align: center;
-        margin-bottom: 8%;
-    }
-    
-    .title>p {
+  .title > p {
     line-height: 25px;
-    }
+  }
 }
 
-@media all and ( max-width:450px ){
+@media all and (max-width: 450px) {
+  .title > h2 {
+    font-size: 30px;
+  }
 
-    .title>h2 {
-        font-size: 30px;
-    }
+  .title > p {
+    font-size: 16px;
+    line-height: 25px;
+  }
 
-    .title>p {
-        font-size: 16px;
-        line-height: 25px;
-    }
+  .title h2 {
+    margin-bottom: 20px;
+  }
 
-    .title h2 {
-        margin-bottom: 20px;
-    }
-
-    .container {
-        margin: 15% auto;
-    }
+  .container {
+    margin: 15% auto;
+  }
 }
 
-@media all and ( max-width:405px ){
-
-    .title>p {
-        font-size: 15px;
-    }
+@media all and (max-width: 405px) {
+  .title > p {
+    font-size: 15px;
+  }
 }
 
-@media all and ( max-width:375px ){
+@media all and (max-width: 375px) {
+  .title > h2 {
+    font-size: 25px;
+  }
 
-    .title>h2 {
-        font-size: 25px;
-    }
-
-    .title>p {
-        font-size: 13px;
-        line-height: 20px;
-    }
+  .title > p {
+    font-size: 13px;
+    line-height: 20px;
+  }
 }
